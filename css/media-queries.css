@@ -1,0 +1,98 @@
+
+@media (min-device-width: 768px) {
+  #video-container iframe {
+    width: 560px;
+    height: 315px;
+    margin-top: 90px;
+  }
+}
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+  #video-container iframe {
+    width: 290px;
+    height: 162px;
+    margin: 144px 0;
+  }
+  #bg img {
+    left: -270px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #video-container {
+    padding: 13px 0;
+  }
+  #video-container iframe {
+    width: 370px;
+    height: 207px;
+  }
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #video-container iframe {
+    width: 350px;
+    height: 196px;
+    margin: 147px 0;
+  }
+  #bg img {
+    left: -270px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #video-container {
+    padding: 19px 0;
+  }
+  #video-container iframe {
+    width: 357px;
+    height: 199px;
+  }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  #video-container iframe {
+    height: 219px;
+    width: 390px;
+    margin: 181px auto;
+  }
+  #bg img {
+    left: -270px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  #video-container iframe {
+    width: 540px;
+    height: 305px;
+    margin: 5px auto;
+  }
+}
