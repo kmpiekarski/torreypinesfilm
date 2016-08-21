@@ -30,7 +30,7 @@
   <div class="row">
     <div class="col-12 text-center">
       <div class="content darker-text">
-        <p align="center">info at</p>
+        <p align="center">booking at</p>
         <p align="center">torreypinesfilm</p>
         <p align="center">dot com</p>
       </div>

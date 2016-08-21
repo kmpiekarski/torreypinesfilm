@@ -4,7 +4,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/trailer">Trailer</a></li>
         <li><a href="/screenings">Screenings</a></li>
-        <li><a href="/donate">Donate</a></li>
+        <li><a href="/downloads">Downloads</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/contact">Contact</a></li>
         <li><a href="https://www.facebook.com/torreypinesfilm" target="_new"><div class="circle-icon social-icons"><img src="/img/facebook-circle-icon.png"></div>
