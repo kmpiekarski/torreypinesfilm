@@ -68,7 +68,7 @@ body {
 }
 .navbar, .navbar-default {
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 500;
   letter-spacing: .15em;
   background-color: #000;
   text-transform: uppercase;
@@ -85,6 +85,9 @@ body {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+}
+.mobile-menu {
+
 }
 .circle-icon {
   -moz-border-radius: 70px;
@@ -131,4 +134,9 @@ body {
   .content img {
     width: 70%;
   }
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
 }
